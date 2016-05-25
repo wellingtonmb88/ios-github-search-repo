@@ -9,13 +9,15 @@
 #import "GRGitHubBO.h"
 #import "GRHTTPSessionProvider+RepositoriesSearch.h"
 #import "GRHTTPSessionProvider+PullRequest.h"
+#import "GRRepositories.h"
+#import "GRPullRequest.h"
 
 @implementation GRGitHubBO
 
 #pragma mark - Services  
 
 + (void)searchRepositoriesWith:(NSString *)search atPage: (NSInteger) page
-                   success:(void(^)())success
+                   success:(void(^)(GRRepositories *repositories))success
                    failure:(void(^)(NSError *error))failure {
     
     GRHTTPSessionProvider *sessionManager = [GRHTTPSessionProvider sharedInstance];
@@ -23,7 +25,13 @@
     [sessionManager searchRepositoriesWith:search atPage:page
                               success:^(NSURLSessionDataTask *task, id responseObject) {
                                   
-         NSLog(@"Search with success= %@",responseObject);
+        NSDictionary *responseDictionary = (NSDictionary *)responseObject;
+          
+        NSError *error;
+        GRRepositories *repositories = [MTLJSONAdapter modelOfClass:GRRepositories.class
+                                                     fromJSONDictionary:responseDictionary error:&error];
+                                  
+        success(repositories);
          
      } failure:^(NSError *error) {
          
@@ -36,7 +44,7 @@
 
 
 + (void)searchPullRequestWithOwner:(NSString *)owner andRepository: (NSString *) repository
-                success:(void(^)())success
+                success:(void(^)(NSArray *pullRequests))success
                 failure:(void(^)(NSError *error))failure {
     
     GRHTTPSessionProvider *sessionManager = [GRHTTPSessionProvider sharedInstance];
@@ -46,8 +54,15 @@
     [sessionManager searchPullRequestWithOwner:owner andRepository:repository
                                success:^(NSURLSessionDataTask *task, id responseObject) {
                                    
-         NSLog(@"Search with success= %@",responseObject);
-         
+                                   
+        NSArray *responseArray = (NSArray *)responseObject;
+       
+        NSError *error;
+                                   
+        NSArray *pullRequests = [MTLJSONAdapter modelsOfClass:GRPullRequest.class
+                                                fromJSONArray:responseArray error:&error];
+        success(pullRequests);
+                                   
      } failure:^(NSError *error) {
          
          NSLog(@"Error on Search.");

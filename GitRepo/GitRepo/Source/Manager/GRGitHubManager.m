@@ -13,29 +13,29 @@
 
 
 - (void)searchRepositoriesWith:(NSString *)search atPage: (NSInteger) page
-                   withCompletionBlock:(void(^)(BOOL success))completion {
+                   withCompletionBlock:(void(^)(GRRepositories *repositories, BOOL success))completion {
     
     [self.mainQueue addOperationWithBlock:^{
         
         [GRGitHubBO searchRepositoriesWith:search atPage:page
-                                           success:^{
-                                               completion(true);
+                                           success:^(GRRepositories *repositories){
+                                               completion(repositories, true);
                                            } failure:^(NSError *error) {
-                                               completion(false);
+                                               completion(nil, false);
                                            }];
     }];
 }
 
 - (void)searchPullRequestWithOwner:(NSString *)owner andRepository: (NSString *) repository
-               withCompletionBlock:(void(^)(BOOL success))completion {
+               withCompletionBlock:(void(^)(NSArray *pullRequests, BOOL success))completion {
     
     [self.mainQueue addOperationWithBlock:^{
         
         [GRGitHubBO searchPullRequestWithOwner:owner andRepository:repository
-                                           success:^{
-                                               completion(true);
+                                           success:^(NSArray *pullRequests){
+                                               completion(pullRequests, true);
                                            } failure:^(NSError *error) {
-                                               completion(false);
+                                               completion(nil, false);
                                            }];
     }];
 }

@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "GRBaseManager.h"
+#import "GRRepositories.h"
 
 @interface GRGitHubManager : GRBaseManager
 
 - (void)searchRepositoriesWith:(NSString *)search atPage: (NSInteger) page
-                    withCompletionBlock:(void(^)(BOOL success))completion;
+                    withCompletionBlock:(void(^)(GRRepositories *repositories, BOOL success))completion;
 
 - (void)searchPullRequestWithOwner:(NSString *)owner andRepository: (NSString *) repository
-                    withCompletionBlock:(void(^)(BOOL success))completion;
+                    withCompletionBlock:(void(^)(NSArray *pullRequests, BOOL success))completion;
 @end
