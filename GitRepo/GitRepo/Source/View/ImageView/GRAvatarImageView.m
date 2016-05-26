@@ -10,11 +10,14 @@
 
 @implementation GRAvatarImageView
 
-- (void)awakeFromNib {
+-(void)layoutSubviews {
     self.layer.borderColor = [UIColor grayColor].CGColor;
     self.layer.borderWidth = 1.0f;
     self.layer.cornerRadius = self.layer.bounds.size.width/2;
     self.layer.masksToBounds = true;
+}
+
+- (void)awakeFromNib {
     self.clipsToBounds = true;
 }
 
