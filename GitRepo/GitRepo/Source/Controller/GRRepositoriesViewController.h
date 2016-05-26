@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RepositoriesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource,UISearchControllerDelegate,UISearchBarDelegate>
+@interface GRRepositoriesViewController : UIViewController <UITableViewDelegate, UITableViewDataSource,UISearchControllerDelegate,UISearchBarDelegate>
 
 
 @end

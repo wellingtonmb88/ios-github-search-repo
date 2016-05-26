@@ -1,5 +1,5 @@
 //
-//  RepositoriesViewController.m
+//  GRRepositoriesViewController.m
 //  GitRepo
 //
 //  Created by WELLINGTON BARBOSA on 5/24/16.
@@ -7,7 +7,8 @@
 //
 
 #import <UIScrollView+InfiniteScroll.h>
-#import "RepositoriesViewController.h"
+#import "GRRepositoriesViewController.h"
+#import "GRPullRequestsViewController.h"
 #import "GRGitHubManager.h"
 #import "GRRepositories.h"
 #import "GRRepository.h"
@@ -15,20 +16,19 @@
 #import "MBProgressHUD.h"
 #import "UIAlertController+Utils.h"
 
-@interface RepositoriesViewController ()
+@interface GRRepositoriesViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) IBOutlet UISearchController *searchController;
 
 @property (strong, nonatomic) GRGitHubManager *manager;
-@property (strong, nonatomic) GRRepositories * repositories;
-@property (strong, nonatomic) NSArray * pullRequests;
-@property (strong, nonatomic) NSString * searchVaue;
+@property (strong, nonatomic) GRRepositories * repositories; 
+@property (copy, nonatomic) NSString * searchVaue;
 @property (nonatomic) int pageCount;
 
 @end
 
-@implementation RepositoriesViewController
+@implementation GRRepositoriesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -111,15 +111,15 @@
         if(success){
             
             if(repositories == nil || [repositories.items count] < 1){
-                [strongSelf createAndShowAlerView:NSLocalizedString(@"alertcontroller.title.error", @"Error")
-                                      withMessage:NSLocalizedString(@"alertcontroller.message.noacronymfound", @"No Acronym found!")];
+                [strongSelf createAndShowAlertView:NSLocalizedString(@"alertcontroller.title.error", @"Error")
+                                      withMessage:NSLocalizedString(@"alertcontroller.message.norepositoryfound", @"No Repository found!")];
             }else {
                 strongSelf.repositories = repositories;
                 [strongSelf.tableView reloadData];
             }
             
         } else {
-            [strongSelf createAndShowAlerView:NSLocalizedString(@"alertcontroller.title.error", @"Error") withMessage:NSLocalizedString(@"alertcontroller.message.requestfailure", @"Request Failure!")];
+            [strongSelf createAndShowAlertView:NSLocalizedString(@"alertcontroller.title.error", @"Error") withMessage:NSLocalizedString(@"alertcontroller.message.requestfailure", @"Request Failure!")];
         }
         
         [strongSelf hideProgress];
@@ -127,7 +127,7 @@
     }];
 }
 
--(void) createAndShowAlerView:(NSString*) title withMessage:(NSString*)message {
+-(void) createAndShowAlertView:(NSString*) title withMessage:(NSString*)message {
     
     UIAlertController *alertController = [UIAlertController createAndShowAlertWithTitle:title withMessage:message hasDefaultAction:YES];
     [self presentViewController:alertController animated:YES completion:nil];
@@ -168,11 +168,15 @@
     return cell;
 }
 
+#pragma mark - Navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if([[segue identifier] isEqualToString:@"showPullRequestsSegue"]){
         
         NSInteger index = [[self.tableView indexPathForSelectedRow] row]; 
         GRRepository *repository = _repositories.items[index];
+        GRPullRequestsViewController *vc = [segue destinationViewController];
+        
+        [vc setRepositoryName:repository.name andOwner:repository.owner.login];
     }
 }
 

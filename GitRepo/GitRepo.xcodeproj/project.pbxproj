@@ -18,8 +18,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRAvatarImageView.h</string>
 			<key>path</key>
 			<string>GRAvatarImageView.h</string>
 			<key>sourceTree</key>
@@ -33,8 +31,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRAvatarImageView.m</string>
 			<key>path</key>
 			<string>GRAvatarImageView.m</string>
 			<key>sourceTree</key>
@@ -55,8 +51,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GRRepositoryTableViewCell.h</string>
 			<key>path</key>
 			<string>GRRepositoryTableViewCell.h</string>
 			<key>sourceTree</key>
@@ -70,8 +64,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>GRRepositoryTableViewCell.m</string>
 			<key>path</key>
 			<string>GRRepositoryTableViewCell.m</string>
 			<key>sourceTree</key>
@@ -88,13 +80,13 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>13E798811CF6B05100F390E5</string>
+				<string>13E798821CF6B05100F390E5</string>
 				<string>13E798761CF6839700F390E5</string>
 				<string>13E798771CF6839700F390E5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Cell</string>
 			<key>path</key>
 			<string>Cell</string>
 			<key>sourceTree</key>
@@ -109,14 +101,12 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ImageView</string>
 			<key>path</key>
 			<string>ImageView</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13E7987B1CF6994D00F390E5</key>
+		<key>13E7987E1CF6A63500F390E5</key>
 		<dict>
 			<key>fileEncoding</key>
 			<string>4</string>
@@ -124,14 +114,12 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIAlertController+Utils.h</string>
 			<key>path</key>
-			<string>../../../../../../xcode_6/avenue_code_test/AcromineService/AcromineService/Source/Infrastrcture/Utils/UIAlertController+Utils.h</string>
+			<string>GRPullRequestsViewController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13E7987C1CF6994D00F390E5</key>
+		<key>13E7987F1CF6A63500F390E5</key>
 		<dict>
 			<key>fileEncoding</key>
 			<string>4</string>
@@ -139,17 +127,101 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIAlertController+Utils.m</string>
 			<key>path</key>
-			<string>../../../../../../xcode_6/avenue_code_test/AcromineService/AcromineService/Source/Infrastrcture/Utils/UIAlertController+Utils.m</string>
+			<string>GRPullRequestsViewController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>13E7987D1CF6994D00F390E5</key>
+		<key>13E798801CF6A63500F390E5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>13E7987C1CF6994D00F390E5</string>
+			<string>13E7987F1CF6A63500F390E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13E798811CF6B05100F390E5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GRPullRequestTableViewCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13E798821CF6B05100F390E5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>GRPullRequestTableViewCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13E798831CF6B05100F390E5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13E798821CF6B05100F390E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13E798861CF6BE5900F390E5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>path</key>
+			<string>Localizable.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13E798871CF6BE5900F390E5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13E798861CF6BE5900F390E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13E798881CF6BE9200F390E5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIAlertController+Utils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13E798891CF6BEB300F390E5</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIAlertController+Utils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13E7988A1CF6BEB300F390E5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13E798891CF6BEB300F390E5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -260,12 +332,14 @@
 				<string>13F748D71CF5219B00501F4A</string>
 				<string>13F748EC1CF551FA00501F4A</string>
 				<string>13E798781CF6839700F390E5</string>
+				<string>13E798831CF6B05100F390E5</string>
 				<string>13F748CF1CF5188200501F4A</string>
+				<string>13E7988A1CF6BEB300F390E5</string>
 				<string>13F748E91CF5442A00501F4A</string>
-				<string>13E7987D1CF6994D00F390E5</string>
 				<string>13F748EF1CF5542000501F4A</string>
 				<string>13E798751CF673D600F390E5</string>
 				<string>13F7488F1CF507EA00501F4A</string>
+				<string>13E798801CF6A63500F390E5</string>
 				<string>13F748F71CF561BC00501F4A</string>
 				<string>13F7488C1CF507EA00501F4A</string>
 				<string>13F748E31CF526E200501F4A</string>
@@ -294,6 +368,7 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
+				<string>13E798871CF6BE5900F390E5</string>
 				<string>13F7489A1CF507EA00501F4A</string>
 				<string>13F748971CF507EA00501F4A</string>
 				<string>13F748951CF507EA00501F4A</string>
@@ -442,7 +517,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>RepositoriesViewController.h</string>
+			<string>GRRepositoriesViewController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -453,7 +528,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>RepositoriesViewController.m</string>
+			<string>GRRepositoriesViewController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1297,6 +1372,8 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>13E7987E1CF6A63500F390E5</string>
+				<string>13E7987F1CF6A63500F390E5</string>
 				<string>13F748901CF507EA00501F4A</string>
 				<string>13F748911CF507EA00501F4A</string>
 			</array>
@@ -1340,7 +1417,9 @@
 		<key>13F748C81CF50EB300501F4A</key>
 		<dict>
 			<key>children</key>
-			<array/>
+			<array>
+				<string>13E798861CF6BE5900F390E5</string>
+			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
@@ -1352,8 +1431,8 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>13E7987B1CF6994D00F390E5</string>
-				<string>13E7987C1CF6994D00F390E5</string>
+				<string>13E798881CF6BE9200F390E5</string>
+				<string>13E798891CF6BEB300F390E5</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
