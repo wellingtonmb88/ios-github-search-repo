@@ -18,5 +18,6 @@
 @property (nonatomic, copy, readonly) NSDate *updatedAt;
 @property (strong, nonatomic, readonly) GRUser *user;
 
+- (NSString *) updatedAtDate;
 
 @end

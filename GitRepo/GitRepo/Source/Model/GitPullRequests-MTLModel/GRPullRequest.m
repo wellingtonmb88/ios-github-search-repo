@@ -17,6 +17,12 @@
     return dateFormatter;
 }
 
+- (NSString *) updatedAtDate {
+    NSDateFormatter *dateFormatter = [NSDateFormatter new];
+    [dateFormatter setDateFormat:@"dd/MM/yyyy"];
+    return [dateFormatter stringFromDate: _updatedAt];
+}
+
 + (NSDictionary*)JSONKeyPathsByPropertyKey {
     return @{
              @"title": @"title",

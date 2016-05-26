@@ -15,9 +15,7 @@
     
     self.title.text = pullRequest.title;
     self.body.text = pullRequest.body;
-    NSDateFormatter *dateFormatter = [NSDateFormatter new];
-    [dateFormatter setDateFormat:@"dd/MM/yyyy"]; 
-    self.updateAt.text = [dateFormatter stringFromDate:pullRequest.updatedAt];
+    self.updateAt.text = pullRequest.updatedAtDate;
     self.author.text = pullRequest.user.login;
     [self.avatarAuthor sd_setImageWithURL:[NSURL URLWithString:pullRequest.user.avatarUrl]
                          placeholderImage:[UIImage imageNamed:@"anonymous-user.jpg"]];

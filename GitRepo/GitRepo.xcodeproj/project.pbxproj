@@ -10,6 +10,151 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>13012C451CF751DD00550963</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>RepositoriesJsonParsingSpec.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C461CF751DD00550963</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13012C451CF751DD00550963</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13012C471CF755C100550963</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>13012C501CF7695800550963</string>
+				<string>13012C481CF755E100550963</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>JSONMock</string>
+			<key>path</key>
+			<string>JSONMock</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C481CF755E100550963</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.json</string>
+			<key>path</key>
+			<string>repositoriesMock.json</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C491CF755E100550963</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13012C481CF755E100550963</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13012C4A1CF7561F00550963</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>13012C4B1CF7563B00550963</string>
+				<string>13012C4C1CF7563B00550963</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Helpers</string>
+			<key>path</key>
+			<string>Helpers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C4B1CF7563B00550963</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TestingHelper.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C4C1CF7563B00550963</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TestingHelper.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C4D1CF7563B00550963</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13012C4C1CF7563B00550963</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13012C4E1CF7684E00550963</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PullRequestsJsonParsingSpec.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C4F1CF7684E00550963</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13012C4E1CF7684E00550963</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13012C501CF7695800550963</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.json</string>
+			<key>path</key>
+			<string>pullRequestsMock.json</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13012C511CF7695800550963</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13012C501CF7695800550963</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>13E798731CF673D600F390E5</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -644,7 +789,9 @@
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>13F748A51CF507EA00501F4A</string>
+				<string>13012C461CF751DD00550963</string>
+				<string>13012C4F1CF7684E00550963</string>
+				<string>13012C4D1CF7563B00550963</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
@@ -656,7 +803,9 @@
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array/>
+			<array>
+				<string>7ADFE4202E3D2C8DE8C4ACE5</string>
+			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -667,7 +816,10 @@
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array/>
+			<array>
+				<string>13012C511CF7695800550963</string>
+				<string>13012C491CF755E100550963</string>
+			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -679,9 +831,12 @@
 			<string>13F748B71CF507EA00501F4A</string>
 			<key>buildPhases</key>
 			<array>
+				<string>98FC377E8842130CD8FBD326</string>
 				<string>13F7489C1CF507EA00501F4A</string>
 				<string>13F7489D1CF507EA00501F4A</string>
 				<string>13F7489E1CF507EA00501F4A</string>
+				<string>1AD18D7CC94CB98094BCCCF2</string>
+				<string>7722A7BF0619266994AFE423</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -739,8 +894,11 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>13F748A41CF507EA00501F4A</string>
+				<string>13012C4A1CF7561F00550963</string>
+				<string>13012C471CF755C100550963</string>
 				<string>13F748A61CF507EA00501F4A</string>
+				<string>13012C4E1CF7684E00550963</string>
+				<string>13012C451CF751DD00550963</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -748,24 +906,6 @@
 			<string>GitRepoTests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748A41CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GitRepoTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748A51CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748A41CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>13F748A61CF507EA00501F4A</key>
 		<dict>
@@ -1153,6 +1293,8 @@
 		</dict>
 		<key>13F748B81CF507EA00501F4A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>41923358A527612C35E943FB</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
@@ -1175,6 +1317,8 @@
 		</dict>
 		<key>13F748B91CF507EA00501F4A</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4E6A6140EF3489962815DE4A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>BUNDLE_LOADER</key>
@@ -1880,6 +2024,30 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>1AD18D7CC94CB98094BCCCF2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
 		<key>1FE6871E64CEABD8C25DE5A2</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1932,6 +2100,21 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>41923358A527612C35E943FB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-GitRepoTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4959718C6CAE32B25DE66407</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1956,6 +2139,21 @@
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
+		<key>4E6A6140EF3489962815DE4A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-GitRepoTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>54D2F920E19B4AFD12B6F54D</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1971,11 +2169,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6658F0F6CB0F1CB4E4536ADB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-GitRepoTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>74C01EADB16CC64ACE5502DD</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>40FA962E8F4932287228A878</string>
+				<string>6658F0F6CB0F1CB4E4536ADB</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1983,6 +2195,67 @@
 			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7722A7BF0619266994AFE423</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>7ADFE4202E3D2C8DE8C4ACE5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6658F0F6CB0F1CB4E4536ADB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>98FC377E8842130CD8FBD326</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
 		</dict>
 		<key>A9667D3A0CEC2ADD44034D94</key>
 		<dict>
@@ -2027,6 +2300,8 @@ fi
 			<array>
 				<string>1FE6871E64CEABD8C25DE5A2</string>
 				<string>54D2F920E19B4AFD12B6F54D</string>
+				<string>41923358A527612C35E943FB</string>
+				<string>4E6A6140EF3489962815DE4A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>

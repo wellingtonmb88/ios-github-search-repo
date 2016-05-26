@@ -18,7 +18,12 @@ target 'GitRepo' do
 end
 
 target 'GitRepoTests' do
-
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'OCMock'
+    
+    # Data Models
+    pod 'Mantle'
 end
 
 target 'GitRepoUITests' do
