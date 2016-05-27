@@ -30,6 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.accessibilityIdentifier = @"Pull Requests Table";
     self.navigationItem.title = _repoName;
     self.numPullRequest.text = @"-";
     

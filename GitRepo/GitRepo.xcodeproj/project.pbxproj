@@ -1,2317 +1,1118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>13012C451CF751DD00550963</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>RepositoriesJsonParsingSpec.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C461CF751DD00550963</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13012C451CF751DD00550963</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13012C471CF755C100550963</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13012C501CF7695800550963</string>
-				<string>13012C481CF755E100550963</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>JSONMock</string>
-			<key>path</key>
-			<string>JSONMock</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C481CF755E100550963</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.json</string>
-			<key>path</key>
-			<string>repositoriesMock.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C491CF755E100550963</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13012C481CF755E100550963</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13012C4A1CF7561F00550963</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13012C4B1CF7563B00550963</string>
-				<string>13012C4C1CF7563B00550963</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Helpers</string>
-			<key>path</key>
-			<string>Helpers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C4B1CF7563B00550963</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TestingHelper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C4C1CF7563B00550963</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TestingHelper.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C4D1CF7563B00550963</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13012C4C1CF7563B00550963</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13012C4E1CF7684E00550963</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>PullRequestsJsonParsingSpec.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C4F1CF7684E00550963</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13012C4E1CF7684E00550963</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13012C501CF7695800550963</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.json</string>
-			<key>path</key>
-			<string>pullRequestsMock.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13012C511CF7695800550963</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13012C501CF7695800550963</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13E798731CF673D600F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRAvatarImageView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798741CF673D600F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRAvatarImageView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798751CF673D600F390E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13E798741CF673D600F390E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13E798761CF6839700F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRRepositoryTableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798771CF6839700F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRRepositoryTableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798781CF6839700F390E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13E798771CF6839700F390E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13E798791CF683A100F390E5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13E798811CF6B05100F390E5</string>
-				<string>13E798821CF6B05100F390E5</string>
-				<string>13E798761CF6839700F390E5</string>
-				<string>13E798771CF6839700F390E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Cell</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E7987A1CF683AD00F390E5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13E798731CF673D600F390E5</string>
-				<string>13E798741CF673D600F390E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>ImageView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E7987E1CF6A63500F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRPullRequestsViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E7987F1CF6A63500F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRPullRequestsViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798801CF6A63500F390E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13E7987F1CF6A63500F390E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13E798811CF6B05100F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRPullRequestTableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798821CF6B05100F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRPullRequestTableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798831CF6B05100F390E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13E798821CF6B05100F390E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13E798861CF6BE5900F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>path</key>
-			<string>Localizable.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798871CF6BE5900F390E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13E798861CF6BE5900F390E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13E798881CF6BE9200F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIAlertController+Utils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E798891CF6BEB300F390E5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIAlertController+Utils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13E7988A1CF6BEB300F390E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13E798891CF6BEB300F390E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F7487E1CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>74C01EADB16CC64ACE5502DD</string>
-				<string>13F748891CF507EA00501F4A</string>
-				<string>13F748A31CF507EA00501F4A</string>
-				<string>13F748AE1CF507EA00501F4A</string>
-				<string>E34F8AB4B9C54EBFC6B33331</string>
-				<string>13F748881CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7487F1CF507EA00501F4A</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>WELLINGTON BARBOSA</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>13F748861CF507EA00501F4A</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>13F7489F1CF507EA00501F4A</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>13F748861CF507EA00501F4A</string>
-					</dict>
-					<key>13F748AA1CF507EA00501F4A</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>13F748861CF507EA00501F4A</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>13F748821CF507EA00501F4A</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>13F7487E1CF507EA00501F4A</string>
-			<key>productRefGroup</key>
-			<string>13F748881CF507EA00501F4A</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>13F748861CF507EA00501F4A</string>
-				<string>13F7489F1CF507EA00501F4A</string>
-				<string>13F748AA1CF507EA00501F4A</string>
-			</array>
-		</dict>
-		<key>13F748821CF507EA00501F4A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>13F748B21CF507EA00501F4A</string>
-				<string>13F748B31CF507EA00501F4A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>13F748831CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13F748D21CF518B100501F4A</string>
-				<string>13F748E61CF52E9E00501F4A</string>
-				<string>13F748921CF507EA00501F4A</string>
-				<string>13F748FA1CF561DC00501F4A</string>
-				<string>13F748DB1CF5229900501F4A</string>
-				<string>13F748D71CF5219B00501F4A</string>
-				<string>13F748EC1CF551FA00501F4A</string>
-				<string>13E798781CF6839700F390E5</string>
-				<string>13E798831CF6B05100F390E5</string>
-				<string>13F748CF1CF5188200501F4A</string>
-				<string>13E7988A1CF6BEB300F390E5</string>
-				<string>13F748E91CF5442A00501F4A</string>
-				<string>13F748EF1CF5542000501F4A</string>
-				<string>13E798751CF673D600F390E5</string>
-				<string>13F7488F1CF507EA00501F4A</string>
-				<string>13E798801CF6A63500F390E5</string>
-				<string>13F748F71CF561BC00501F4A</string>
-				<string>13F7488C1CF507EA00501F4A</string>
-				<string>13F748E31CF526E200501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F748841CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A9667D3A0CEC2ADD44034D94</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F748851CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13E798871CF6BE5900F390E5</string>
-				<string>13F7489A1CF507EA00501F4A</string>
-				<string>13F748971CF507EA00501F4A</string>
-				<string>13F748951CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F748861CF507EA00501F4A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>13F748B41CF507EA00501F4A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E10DAB05D90790D765F1298A</string>
-				<string>13F748831CF507EA00501F4A</string>
-				<string>13F748841CF507EA00501F4A</string>
-				<string>13F748851CF507EA00501F4A</string>
-				<string>3C8245CFEB067A3B75FCFBD5</string>
-				<string>4959718C6CAE32B25DE66407</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GitRepo</string>
-			<key>productName</key>
-			<string>GitRepo</string>
-			<key>productReference</key>
-			<string>13F748871CF507EA00501F4A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>13F748871CF507EA00501F4A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GitRepo.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>13F748881CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748871CF507EA00501F4A</string>
-				<string>13F748A01CF507EA00501F4A</string>
-				<string>13F748AB1CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748891CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748BD1CF50DFC00501F4A</string>
-				<string>13F748BE1CF50E0400501F4A</string>
-				<string>13F7488A1CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GitRepo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7488A1CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F7489B1CF507EA00501F4A</string>
-				<string>13F7488B1CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7488B1CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7488C1CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F7488B1CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F7488D1CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7488E1CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7488F1CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F7488E1CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748901CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRRepositoriesViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748911CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRRepositoriesViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748921CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748911CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748931CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748941CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>path</key>
-			<string>.</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748941CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748951CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748931CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748961CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748971CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748961CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748981CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748991CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>path</key>
-			<string>.</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748991CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7489A1CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748981CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F7489B1CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F7489C1CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13012C461CF751DD00550963</string>
-				<string>13012C4F1CF7684E00550963</string>
-				<string>13012C4D1CF7563B00550963</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F7489D1CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7ADFE4202E3D2C8DE8C4ACE5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F7489E1CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13012C511CF7695800550963</string>
-				<string>13012C491CF755E100550963</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F7489F1CF507EA00501F4A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>13F748B71CF507EA00501F4A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>98FC377E8842130CD8FBD326</string>
-				<string>13F7489C1CF507EA00501F4A</string>
-				<string>13F7489D1CF507EA00501F4A</string>
-				<string>13F7489E1CF507EA00501F4A</string>
-				<string>1AD18D7CC94CB98094BCCCF2</string>
-				<string>7722A7BF0619266994AFE423</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>13F748A21CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GitRepoTests</string>
-			<key>productName</key>
-			<string>GitRepoTests</string>
-			<key>productReference</key>
-			<string>13F748A01CF507EA00501F4A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>13F748A01CF507EA00501F4A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GitRepoTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>13F748A11CF507EA00501F4A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>13F7487F1CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>13F748861CF507EA00501F4A</string>
-			<key>remoteInfo</key>
-			<string>GitRepo</string>
-		</dict>
-		<key>13F748A21CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>13F748861CF507EA00501F4A</string>
-			<key>targetProxy</key>
-			<string>13F748A11CF507EA00501F4A</string>
-		</dict>
-		<key>13F748A31CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13012C4A1CF7561F00550963</string>
-				<string>13012C471CF755C100550963</string>
-				<string>13F748A61CF507EA00501F4A</string>
-				<string>13012C4E1CF7684E00550963</string>
-				<string>13012C451CF751DD00550963</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GitRepoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748A61CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748A71CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13F748B01CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F748A81CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F748A91CF507EA00501F4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13F748AA1CF507EA00501F4A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>13F748BA1CF507EA00501F4A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>13F748A71CF507EA00501F4A</string>
-				<string>13F748A81CF507EA00501F4A</string>
-				<string>13F748A91CF507EA00501F4A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>13F748AD1CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>GitRepoUITests</string>
-			<key>productName</key>
-			<string>GitRepoUITests</string>
-			<key>productReference</key>
-			<string>13F748AB1CF507EA00501F4A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>13F748AB1CF507EA00501F4A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>GitRepoUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>13F748AC1CF507EA00501F4A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>13F7487F1CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>13F748861CF507EA00501F4A</string>
-			<key>remoteInfo</key>
-			<string>GitRepo</string>
-		</dict>
-		<key>13F748AD1CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>13F748861CF507EA00501F4A</string>
-			<key>targetProxy</key>
-			<string>13F748AC1CF507EA00501F4A</string>
-		</dict>
-		<key>13F748AE1CF507EA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748AF1CF507EA00501F4A</string>
-				<string>13F748B11CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GitRepoUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748AF1CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GitRepoUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748B01CF507EA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748AF1CF507EA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748B11CF507EA00501F4A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748B21CF507EA00501F4A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>13F748B31CF507EA00501F4A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13F748B41CF507EA00501F4A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>13F748B51CF507EA00501F4A</string>
-				<string>13F748B61CF507EA00501F4A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>13F748B51CF507EA00501F4A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1FE6871E64CEABD8C25DE5A2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GitRepo/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>wellington.objective.c.GitRepo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>13F748B61CF507EA00501F4A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>54D2F920E19B4AFD12B6F54D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GitRepo/Supporting Files/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>wellington.objective.c.GitRepo</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13F748B71CF507EA00501F4A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>13F748B81CF507EA00501F4A</string>
-				<string>13F748B91CF507EA00501F4A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>13F748B81CF507EA00501F4A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>41923358A527612C35E943FB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GitRepoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>wellington.objective.c.GitRepoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/GitRepo.app/GitRepo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>13F748B91CF507EA00501F4A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E6A6140EF3489962815DE4A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>GitRepoTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>wellington.objective.c.GitRepoTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/GitRepo.app/GitRepo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13F748BA1CF507EA00501F4A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>13F748BB1CF507EA00501F4A</string>
-				<string>13F748BC1CF507EA00501F4A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>13F748BB1CF507EA00501F4A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>GitRepoUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>wellington.objective.c.GitRepoUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>GitRepo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>13F748BC1CF507EA00501F4A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>GitRepoUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>wellington.objective.c.GitRepoUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>GitRepo</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>13F748BD1CF50DFC00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748BF1CF50E0D00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748BE1CF50E0400501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748C31CF50E7000501F4A</string>
-				<string>13F748C51CF50E8C00501F4A</string>
-				<string>13F748C11CF50E4500501F4A</string>
-				<string>13F748C41CF50E8700501F4A</string>
-				<string>13F748C01CF50E3B00501F4A</string>
-				<string>13F748C21CF50E6600501F4A</string>
-				<string>13F748C61CF50E9600501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Source</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748BF1CF50E0D00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748961CF507EA00501F4A</string>
-				<string>13F748981CF507EA00501F4A</string>
-				<string>13F748931CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Storyboards</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C01CF50E3B00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748F11CF55FBE00501F4A</string>
-				<string>13F748F01CF55C0600501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C11CF50E4500501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748C81CF50EB300501F4A</string>
-				<string>13F748C91CF50ED700501F4A</string>
-				<string>13F7488D1CF507EA00501F4A</string>
-				<string>13F7488E1CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Infrastructure</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C21CF50E6600501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748C71CF50EAA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Provider</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C31CF50E7000501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748D91CF5229900501F4A</string>
-				<string>13F748DA1CF5229900501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Business</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C41CF50E8700501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748D81CF521A400501F4A</string>
-				<string>13F748E11CF526E200501F4A</string>
-				<string>13F748E21CF526E200501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Manager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C51CF50E8C00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13E7987E1CF6A63500F390E5</string>
-				<string>13E7987F1CF6A63500F390E5</string>
-				<string>13F748901CF507EA00501F4A</string>
-				<string>13F748911CF507EA00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C61CF50E9600501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13E798791CF683A100F390E5</string>
-				<string>13E7987A1CF683AD00F390E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C71CF50EAA00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748D41CF51A3800501F4A</string>
-				<string>13F748D31CF51A1C00501F4A</string>
-				<string>13F748E41CF52E9500501F4A</string>
-				<string>13F748E51CF52E9E00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Service</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C81CF50EB300501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13E798861CF6BE5900F390E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Localizable Strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748C91CF50ED700501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13E798881CF6BE9200F390E5</string>
-				<string>13E798891CF6BEB300F390E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Utils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748CD1CF5188200501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRHTTPSessionProvider+RepositoriesSearch.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748CE1CF5188200501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRHTTPSessionProvider+RepositoriesSearch.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748CF1CF5188200501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748CE1CF5188200501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748D01CF518B100501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRHTTPSessionProvider+PullRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748D11CF518B100501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRHTTPSessionProvider+PullRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748D21CF518B100501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748D11CF518B100501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748D31CF51A1C00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748CD1CF5188200501F4A</string>
-				<string>13F748CE1CF5188200501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Repositories Search</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748D41CF51A3800501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748D01CF518B100501F4A</string>
-				<string>13F748D11CF518B100501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Pull Request</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748D51CF5219B00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRBaseManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748D61CF5219B00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRBaseManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748D71CF5219B00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748D61CF5219B00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748D81CF521A400501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748D51CF5219B00501F4A</string>
-				<string>13F748D61CF5219B00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Base</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748D91CF5229900501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRGitHubBO.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748DA1CF5229900501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRGitHubBO.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748DB1CF5229900501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748DA1CF5229900501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748E11CF526E200501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRGitHubManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748E21CF526E200501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRGitHubManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748E31CF526E200501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748E21CF526E200501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748E41CF52E9500501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRHTTPSessionProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748E51CF52E9E00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRHTTPSessionProvider.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748E61CF52E9E00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748E51CF52E9E00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748E71CF5442A00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRRepository.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748E81CF5442A00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRRepository.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748E91CF5442A00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748E81CF5442A00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748EA1CF551FA00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRRepositories.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748EB1CF551FA00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRRepositories.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748EC1CF551FA00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748EB1CF551FA00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748ED1CF5542000501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GROwner.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748EE1CF5542000501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GROwner.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748EF1CF5542000501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748EE1CF5542000501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748F01CF55C0600501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748ED1CF5542000501F4A</string>
-				<string>13F748EE1CF5542000501F4A</string>
-				<string>13F748EA1CF551FA00501F4A</string>
-				<string>13F748EB1CF551FA00501F4A</string>
-				<string>13F748E71CF5442A00501F4A</string>
-				<string>13F748E81CF5442A00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GitRepositories-MTLModel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748F11CF55FBE00501F4A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>13F748F51CF561BC00501F4A</string>
-				<string>13F748F61CF561BC00501F4A</string>
-				<string>13F748F81CF561DC00501F4A</string>
-				<string>13F748F91CF561DC00501F4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>GitPullRequests-MTLModel</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748F51CF561BC00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRPullRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748F61CF561BC00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRPullRequest.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748F71CF561BC00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748F61CF561BC00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F748F81CF561DC00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GRUser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748F91CF561DC00501F4A</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>GRUser.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13F748FA1CF561DC00501F4A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>13F748F91CF561DC00501F4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1AD18D7CC94CB98094BCCCF2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>1FE6871E64CEABD8C25DE5A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-GitRepo.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C8245CFEB067A3B75FCFBD5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>40FA962E8F4932287228A878</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GitRepo.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>41923358A527612C35E943FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-GitRepoTests.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4959718C6CAE32B25DE66407</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>4E6A6140EF3489962815DE4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-GitRepoTests.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54D2F920E19B4AFD12B6F54D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-GitRepo.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6658F0F6CB0F1CB4E4536ADB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-GitRepoTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>74C01EADB16CC64ACE5502DD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>40FA962E8F4932287228A878</string>
-				<string>6658F0F6CB0F1CB4E4536ADB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7722A7BF0619266994AFE423</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>7ADFE4202E3D2C8DE8C4ACE5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6658F0F6CB0F1CB4E4536ADB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98FC377E8842130CD8FBD326</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>A9667D3A0CEC2ADD44034D94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40FA962E8F4932287228A878</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E10DAB05D90790D765F1298A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>E34F8AB4B9C54EBFC6B33331</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1FE6871E64CEABD8C25DE5A2</string>
-				<string>54D2F920E19B4AFD12B6F54D</string>
-				<string>41923358A527612C35E943FB</string>
-				<string>4E6A6140EF3489962815DE4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>13F7487F1CF507EA00501F4A</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13012C461CF751DD00550963 /* RepositoriesJsonParsingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 13012C451CF751DD00550963 /* RepositoriesJsonParsingSpec.m */; };
+		13012C491CF755E100550963 /* repositoriesMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 13012C481CF755E100550963 /* repositoriesMock.json */; };
+		13012C4D1CF7563B00550963 /* TestingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13012C4C1CF7563B00550963 /* TestingHelper.m */; };
+		13012C4F1CF7684E00550963 /* PullRequestsJsonParsingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 13012C4E1CF7684E00550963 /* PullRequestsJsonParsingSpec.m */; };
+		13012C511CF7695800550963 /* pullRequestsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 13012C501CF7695800550963 /* pullRequestsMock.json */; };
+		13B4EB241CF7A73E00D0B816 /* SearchUITestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B4EB231CF7A73E00D0B816 /* SearchUITestSpec.m */; };
+		13E798751CF673D600F390E5 /* GRAvatarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E798741CF673D600F390E5 /* GRAvatarImageView.m */; };
+		13E798781CF6839700F390E5 /* GRRepositoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E798771CF6839700F390E5 /* GRRepositoryTableViewCell.m */; };
+		13E798801CF6A63500F390E5 /* GRPullRequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E7987F1CF6A63500F390E5 /* GRPullRequestsViewController.m */; };
+		13E798831CF6B05100F390E5 /* GRPullRequestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E798821CF6B05100F390E5 /* GRPullRequestTableViewCell.m */; };
+		13E798871CF6BE5900F390E5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13E798861CF6BE5900F390E5 /* Localizable.strings */; };
+		13E7988A1CF6BEB300F390E5 /* UIAlertController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E798891CF6BEB300F390E5 /* UIAlertController+Utils.m */; };
+		13F7488C1CF507EA00501F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F7488B1CF507EA00501F4A /* main.m */; };
+		13F7488F1CF507EA00501F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F7488E1CF507EA00501F4A /* AppDelegate.m */; };
+		13F748921CF507EA00501F4A /* GRRepositoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748911CF507EA00501F4A /* GRRepositoriesViewController.m */; };
+		13F748951CF507EA00501F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F748931CF507EA00501F4A /* Main.storyboard */; };
+		13F748971CF507EA00501F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F748961CF507EA00501F4A /* Assets.xcassets */; };
+		13F7489A1CF507EA00501F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F748981CF507EA00501F4A /* LaunchScreen.storyboard */; };
+		13F748B01CF507EA00501F4A /* GitRepoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748AF1CF507EA00501F4A /* GitRepoUITests.m */; };
+		13F748CF1CF5188200501F4A /* GRHTTPSessionProvider+RepositoriesSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748CE1CF5188200501F4A /* GRHTTPSessionProvider+RepositoriesSearch.m */; };
+		13F748D21CF518B100501F4A /* GRHTTPSessionProvider+PullRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748D11CF518B100501F4A /* GRHTTPSessionProvider+PullRequest.m */; };
+		13F748D71CF5219B00501F4A /* GRBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748D61CF5219B00501F4A /* GRBaseManager.m */; };
+		13F748DB1CF5229900501F4A /* GRGitHubBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748DA1CF5229900501F4A /* GRGitHubBO.m */; };
+		13F748E31CF526E200501F4A /* GRGitHubManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748E21CF526E200501F4A /* GRGitHubManager.m */; };
+		13F748E61CF52E9E00501F4A /* GRHTTPSessionProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748E51CF52E9E00501F4A /* GRHTTPSessionProvider.m */; };
+		13F748E91CF5442A00501F4A /* GRRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748E81CF5442A00501F4A /* GRRepository.m */; };
+		13F748EC1CF551FA00501F4A /* GRRepositories.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748EB1CF551FA00501F4A /* GRRepositories.m */; };
+		13F748EF1CF5542000501F4A /* GROwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748EE1CF5542000501F4A /* GROwner.m */; };
+		13F748F71CF561BC00501F4A /* GRPullRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748F61CF561BC00501F4A /* GRPullRequest.m */; };
+		13F748FA1CF561DC00501F4A /* GRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F748F91CF561DC00501F4A /* GRUser.m */; };
+		7ADFE4202E3D2C8DE8C4ACE5 /* libPods-GitRepoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6658F0F6CB0F1CB4E4536ADB /* libPods-GitRepoTests.a */; };
+		A9667D3A0CEC2ADD44034D94 /* libPods-GitRepo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FA962E8F4932287228A878 /* libPods-GitRepo.a */; };
+		BE64D420C3D0B45EEDBA83CA /* libPods-GitRepoAcceptanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD803974EDCA549D2C4982C7 /* libPods-GitRepoAcceptanceTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13B4EB1E1CF7A57700D0B816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F7487F1CF507EA00501F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F748861CF507EA00501F4A;
+			remoteInfo = GitRepo;
+		};
+		13F748A11CF507EA00501F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F7487F1CF507EA00501F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F748861CF507EA00501F4A;
+			remoteInfo = GitRepo;
+		};
+		13F748AC1CF507EA00501F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F7487F1CF507EA00501F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F748861CF507EA00501F4A;
+			remoteInfo = GitRepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03382BF69CDDF87B6C7A51BB /* Pods-GitRepoAcceptanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoAcceptanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitRepoAcceptanceTests/Pods-GitRepoAcceptanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		13012C451CF751DD00550963 /* RepositoriesJsonParsingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepositoriesJsonParsingSpec.m; sourceTree = "<group>"; };
+		13012C481CF755E100550963 /* repositoriesMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = repositoriesMock.json; sourceTree = "<group>"; };
+		13012C4B1CF7563B00550963 /* TestingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingHelper.h; sourceTree = "<group>"; };
+		13012C4C1CF7563B00550963 /* TestingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestingHelper.m; sourceTree = "<group>"; };
+		13012C4E1CF7684E00550963 /* PullRequestsJsonParsingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRequestsJsonParsingSpec.m; sourceTree = "<group>"; };
+		13012C501CF7695800550963 /* pullRequestsMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pullRequestsMock.json; sourceTree = "<group>"; };
+		13B4EB191CF7A57700D0B816 /* GitRepoAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B4EB1D1CF7A57700D0B816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B4EB231CF7A73E00D0B816 /* SearchUITestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUITestSpec.m; sourceTree = "<group>"; };
+		13E798731CF673D600F390E5 /* GRAvatarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAvatarImageView.h; sourceTree = "<group>"; };
+		13E798741CF673D600F390E5 /* GRAvatarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAvatarImageView.m; sourceTree = "<group>"; };
+		13E798761CF6839700F390E5 /* GRRepositoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRepositoryTableViewCell.h; sourceTree = "<group>"; };
+		13E798771CF6839700F390E5 /* GRRepositoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRepositoryTableViewCell.m; sourceTree = "<group>"; };
+		13E7987E1CF6A63500F390E5 /* GRPullRequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPullRequestsViewController.h; sourceTree = "<group>"; };
+		13E7987F1CF6A63500F390E5 /* GRPullRequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPullRequestsViewController.m; sourceTree = "<group>"; };
+		13E798811CF6B05100F390E5 /* GRPullRequestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPullRequestTableViewCell.h; sourceTree = "<group>"; };
+		13E798821CF6B05100F390E5 /* GRPullRequestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPullRequestTableViewCell.m; sourceTree = "<group>"; };
+		13E798861CF6BE5900F390E5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		13E798881CF6BE9200F390E5 /* UIAlertController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Utils.h"; sourceTree = "<group>"; };
+		13E798891CF6BEB300F390E5 /* UIAlertController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Utils.m"; sourceTree = "<group>"; };
+		13F748871CF507EA00501F4A /* GitRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F7488B1CF507EA00501F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13F7488D1CF507EA00501F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13F7488E1CF507EA00501F4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13F748901CF507EA00501F4A /* GRRepositoriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRRepositoriesViewController.h; sourceTree = "<group>"; };
+		13F748911CF507EA00501F4A /* GRRepositoriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRRepositoriesViewController.m; sourceTree = "<group>"; };
+		13F748941CF507EA00501F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13F748961CF507EA00501F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F748991CF507EA00501F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13F7489B1CF507EA00501F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F748A01CF507EA00501F4A /* GitRepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F748A61CF507EA00501F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F748AB1CF507EA00501F4A /* GitRepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitRepoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F748AF1CF507EA00501F4A /* GitRepoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitRepoUITests.m; sourceTree = "<group>"; };
+		13F748B11CF507EA00501F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F748CD1CF5188200501F4A /* GRHTTPSessionProvider+RepositoriesSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRHTTPSessionProvider+RepositoriesSearch.h"; sourceTree = "<group>"; };
+		13F748CE1CF5188200501F4A /* GRHTTPSessionProvider+RepositoriesSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GRHTTPSessionProvider+RepositoriesSearch.m"; sourceTree = "<group>"; };
+		13F748D01CF518B100501F4A /* GRHTTPSessionProvider+PullRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRHTTPSessionProvider+PullRequest.h"; sourceTree = "<group>"; };
+		13F748D11CF518B100501F4A /* GRHTTPSessionProvider+PullRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GRHTTPSessionProvider+PullRequest.m"; sourceTree = "<group>"; };
+		13F748D51CF5219B00501F4A /* GRBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRBaseManager.h; sourceTree = "<group>"; };
+		13F748D61CF5219B00501F4A /* GRBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRBaseManager.m; sourceTree = "<group>"; };
+		13F748D91CF5229900501F4A /* GRGitHubBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRGitHubBO.h; sourceTree = "<group>"; };
+		13F748DA1CF5229900501F4A /* GRGitHubBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRGitHubBO.m; sourceTree = "<group>"; };
+		13F748E11CF526E200501F4A /* GRGitHubManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRGitHubManager.h; sourceTree = "<group>"; };
+		13F748E21CF526E200501F4A /* GRGitHubManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRGitHubManager.m; sourceTree = "<group>"; };
+		13F748E41CF52E9500501F4A /* GRHTTPSessionProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRHTTPSessionProvider.h; sourceTree = "<group>"; };
+		13F748E51CF52E9E00501F4A /* GRHTTPSessionProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRHTTPSessionProvider.m; sourceTree = "<group>"; };
+		13F748E71CF5442A00501F4A /* GRRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRepository.h; sourceTree = "<group>"; };
+		13F748E81CF5442A00501F4A /* GRRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRepository.m; sourceTree = "<group>"; };
+		13F748EA1CF551FA00501F4A /* GRRepositories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRepositories.h; sourceTree = "<group>"; };
+		13F748EB1CF551FA00501F4A /* GRRepositories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRepositories.m; sourceTree = "<group>"; };
+		13F748ED1CF5542000501F4A /* GROwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GROwner.h; sourceTree = "<group>"; };
+		13F748EE1CF5542000501F4A /* GROwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GROwner.m; sourceTree = "<group>"; };
+		13F748F51CF561BC00501F4A /* GRPullRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPullRequest.h; sourceTree = "<group>"; };
+		13F748F61CF561BC00501F4A /* GRPullRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPullRequest.m; sourceTree = "<group>"; };
+		13F748F81CF561DC00501F4A /* GRUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUser.h; sourceTree = "<group>"; };
+		13F748F91CF561DC00501F4A /* GRUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUser.m; sourceTree = "<group>"; };
+		1FE6871E64CEABD8C25DE5A2 /* Pods-GitRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo.debug.xcconfig"; sourceTree = "<group>"; };
+		40FA962E8F4932287228A878 /* libPods-GitRepo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitRepo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41923358A527612C35E943FB /* Pods-GitRepoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6A6140EF3489962815DE4A /* Pods-GitRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests.release.xcconfig"; sourceTree = "<group>"; };
+		54D2F920E19B4AFD12B6F54D /* Pods-GitRepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo.release.xcconfig"; sourceTree = "<group>"; };
+		6658F0F6CB0F1CB4E4536ADB /* libPods-GitRepoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitRepoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D1D78B7C848B6E0B4CD374 /* Pods-GitRepoAcceptanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitRepoAcceptanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitRepoAcceptanceTests/Pods-GitRepoAcceptanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD803974EDCA549D2C4982C7 /* libPods-GitRepoAcceptanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitRepoAcceptanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B4EB161CF7A57700D0B816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE64D420C3D0B45EEDBA83CA /* libPods-GitRepoAcceptanceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F748841CF507EA00501F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9667D3A0CEC2ADD44034D94 /* libPods-GitRepo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7489D1CF507EA00501F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADFE4202E3D2C8DE8C4ACE5 /* libPods-GitRepoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F748A81CF507EA00501F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13012C471CF755C100550963 /* JSONMock */ = {
+			isa = PBXGroup;
+			children = (
+				13012C501CF7695800550963 /* pullRequestsMock.json */,
+				13012C481CF755E100550963 /* repositoriesMock.json */,
+			);
+			path = JSONMock;
+			sourceTree = "<group>";
+		};
+		13012C4A1CF7561F00550963 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				13012C4B1CF7563B00550963 /* TestingHelper.h */,
+				13012C4C1CF7563B00550963 /* TestingHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		13B4EB1A1CF7A57700D0B816 /* GitRepoAcceptanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				13B4EB1D1CF7A57700D0B816 /* Info.plist */,
+				13B4EB231CF7A73E00D0B816 /* SearchUITestSpec.m */,
+			);
+			path = GitRepoAcceptanceTests;
+			sourceTree = "<group>";
+		};
+		13E798791CF683A100F390E5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				13E798811CF6B05100F390E5 /* GRPullRequestTableViewCell.h */,
+				13E798821CF6B05100F390E5 /* GRPullRequestTableViewCell.m */,
+				13E798761CF6839700F390E5 /* GRRepositoryTableViewCell.h */,
+				13E798771CF6839700F390E5 /* GRRepositoryTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		13E7987A1CF683AD00F390E5 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				13E798731CF673D600F390E5 /* GRAvatarImageView.h */,
+				13E798741CF673D600F390E5 /* GRAvatarImageView.m */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		13F7487E1CF507EA00501F4A = {
+			isa = PBXGroup;
+			children = (
+				74C01EADB16CC64ACE5502DD /* Frameworks */,
+				13F748891CF507EA00501F4A /* GitRepo */,
+				13F748A31CF507EA00501F4A /* GitRepoTests */,
+				13B4EB1A1CF7A57700D0B816 /* GitRepoAcceptanceTests */,
+				13F748AE1CF507EA00501F4A /* GitRepoUITests */,
+				E34F8AB4B9C54EBFC6B33331 /* Pods */,
+				13F748881CF507EA00501F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F748881CF507EA00501F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F748871CF507EA00501F4A /* GitRepo.app */,
+				13F748A01CF507EA00501F4A /* GitRepoTests.xctest */,
+				13F748AB1CF507EA00501F4A /* GitRepoUITests.xctest */,
+				13B4EB191CF7A57700D0B816 /* GitRepoAcceptanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F748891CF507EA00501F4A /* GitRepo */ = {
+			isa = PBXGroup;
+			children = (
+				13F748BD1CF50DFC00501F4A /* Resources */,
+				13F748BE1CF50E0400501F4A /* Source */,
+				13F7488A1CF507EA00501F4A /* Supporting Files */,
+			);
+			path = GitRepo;
+			sourceTree = "<group>";
+		};
+		13F7488A1CF507EA00501F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F7489B1CF507EA00501F4A /* Info.plist */,
+				13F7488B1CF507EA00501F4A /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F748A31CF507EA00501F4A /* GitRepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13012C4A1CF7561F00550963 /* Helpers */,
+				13012C471CF755C100550963 /* JSONMock */,
+				13F748A61CF507EA00501F4A /* Info.plist */,
+				13012C4E1CF7684E00550963 /* PullRequestsJsonParsingSpec.m */,
+				13012C451CF751DD00550963 /* RepositoriesJsonParsingSpec.m */,
+			);
+			path = GitRepoTests;
+			sourceTree = "<group>";
+		};
+		13F748AE1CF507EA00501F4A /* GitRepoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13F748AF1CF507EA00501F4A /* GitRepoUITests.m */,
+				13F748B11CF507EA00501F4A /* Info.plist */,
+			);
+			path = GitRepoUITests;
+			sourceTree = "<group>";
+		};
+		13F748BD1CF50DFC00501F4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13F748BF1CF50E0D00501F4A /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13F748BE1CF50E0400501F4A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				13F748C31CF50E7000501F4A /* Business */,
+				13F748C51CF50E8C00501F4A /* Controller */,
+				13F748C11CF50E4500501F4A /* Infrastructure */,
+				13F748C41CF50E8700501F4A /* Manager */,
+				13F748C01CF50E3B00501F4A /* Model */,
+				13F748C21CF50E6600501F4A /* Provider */,
+				13F748C61CF50E9600501F4A /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		13F748BF1CF50E0D00501F4A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				13F748961CF507EA00501F4A /* Assets.xcassets */,
+				13F748981CF507EA00501F4A /* LaunchScreen.storyboard */,
+				13F748931CF507EA00501F4A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		13F748C01CF50E3B00501F4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13F748F11CF55FBE00501F4A /* GitPullRequests-MTLModel */,
+				13F748F01CF55C0600501F4A /* GitRepositories-MTLModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13F748C11CF50E4500501F4A /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				13F748C81CF50EB300501F4A /* Localizable Strings */,
+				13F748C91CF50ED700501F4A /* Utils */,
+				13F7488D1CF507EA00501F4A /* AppDelegate.h */,
+				13F7488E1CF507EA00501F4A /* AppDelegate.m */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		13F748C21CF50E6600501F4A /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				13F748C71CF50EAA00501F4A /* Service */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		13F748C31CF50E7000501F4A /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				13F748D91CF5229900501F4A /* GRGitHubBO.h */,
+				13F748DA1CF5229900501F4A /* GRGitHubBO.m */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		13F748C41CF50E8700501F4A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				13F748D81CF521A400501F4A /* Base */,
+				13F748E11CF526E200501F4A /* GRGitHubManager.h */,
+				13F748E21CF526E200501F4A /* GRGitHubManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		13F748C51CF50E8C00501F4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13E7987E1CF6A63500F390E5 /* GRPullRequestsViewController.h */,
+				13E7987F1CF6A63500F390E5 /* GRPullRequestsViewController.m */,
+				13F748901CF507EA00501F4A /* GRRepositoriesViewController.h */,
+				13F748911CF507EA00501F4A /* GRRepositoriesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13F748C61CF50E9600501F4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13E798791CF683A100F390E5 /* Cell */,
+				13E7987A1CF683AD00F390E5 /* ImageView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13F748C71CF50EAA00501F4A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				13F748D41CF51A3800501F4A /* Pull Request */,
+				13F748D31CF51A1C00501F4A /* Repositories Search */,
+				13F748E41CF52E9500501F4A /* GRHTTPSessionProvider.h */,
+				13F748E51CF52E9E00501F4A /* GRHTTPSessionProvider.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		13F748C81CF50EB300501F4A /* Localizable Strings */ = {
+			isa = PBXGroup;
+			children = (
+				13E798861CF6BE5900F390E5 /* Localizable.strings */,
+			);
+			path = "Localizable Strings";
+			sourceTree = "<group>";
+		};
+		13F748C91CF50ED700501F4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				13E798881CF6BE9200F390E5 /* UIAlertController+Utils.h */,
+				13E798891CF6BEB300F390E5 /* UIAlertController+Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		13F748D31CF51A1C00501F4A /* Repositories Search */ = {
+			isa = PBXGroup;
+			children = (
+				13F748CD1CF5188200501F4A /* GRHTTPSessionProvider+RepositoriesSearch.h */,
+				13F748CE1CF5188200501F4A /* GRHTTPSessionProvider+RepositoriesSearch.m */,
+			);
+			path = "Repositories Search";
+			sourceTree = "<group>";
+		};
+		13F748D41CF51A3800501F4A /* Pull Request */ = {
+			isa = PBXGroup;
+			children = (
+				13F748D01CF518B100501F4A /* GRHTTPSessionProvider+PullRequest.h */,
+				13F748D11CF518B100501F4A /* GRHTTPSessionProvider+PullRequest.m */,
+			);
+			path = "Pull Request";
+			sourceTree = "<group>";
+		};
+		13F748D81CF521A400501F4A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				13F748D51CF5219B00501F4A /* GRBaseManager.h */,
+				13F748D61CF5219B00501F4A /* GRBaseManager.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		13F748F01CF55C0600501F4A /* GitRepositories-MTLModel */ = {
+			isa = PBXGroup;
+			children = (
+				13F748ED1CF5542000501F4A /* GROwner.h */,
+				13F748EE1CF5542000501F4A /* GROwner.m */,
+				13F748EA1CF551FA00501F4A /* GRRepositories.h */,
+				13F748EB1CF551FA00501F4A /* GRRepositories.m */,
+				13F748E71CF5442A00501F4A /* GRRepository.h */,
+				13F748E81CF5442A00501F4A /* GRRepository.m */,
+			);
+			path = "GitRepositories-MTLModel";
+			sourceTree = "<group>";
+		};
+		13F748F11CF55FBE00501F4A /* GitPullRequests-MTLModel */ = {
+			isa = PBXGroup;
+			children = (
+				13F748F51CF561BC00501F4A /* GRPullRequest.h */,
+				13F748F61CF561BC00501F4A /* GRPullRequest.m */,
+				13F748F81CF561DC00501F4A /* GRUser.h */,
+				13F748F91CF561DC00501F4A /* GRUser.m */,
+			);
+			path = "GitPullRequests-MTLModel";
+			sourceTree = "<group>";
+		};
+		74C01EADB16CC64ACE5502DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40FA962E8F4932287228A878 /* libPods-GitRepo.a */,
+				6658F0F6CB0F1CB4E4536ADB /* libPods-GitRepoTests.a */,
+				FD803974EDCA549D2C4982C7 /* libPods-GitRepoAcceptanceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34F8AB4B9C54EBFC6B33331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6871E64CEABD8C25DE5A2 /* Pods-GitRepo.debug.xcconfig */,
+				54D2F920E19B4AFD12B6F54D /* Pods-GitRepo.release.xcconfig */,
+				41923358A527612C35E943FB /* Pods-GitRepoTests.debug.xcconfig */,
+				4E6A6140EF3489962815DE4A /* Pods-GitRepoTests.release.xcconfig */,
+				87D1D78B7C848B6E0B4CD374 /* Pods-GitRepoAcceptanceTests.debug.xcconfig */,
+				03382BF69CDDF87B6C7A51BB /* Pods-GitRepoAcceptanceTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B4EB181CF7A57700D0B816 /* GitRepoAcceptanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B4EB221CF7A57700D0B816 /* Build configuration list for PBXNativeTarget "GitRepoAcceptanceTests" */;
+			buildPhases = (
+				1F3CB882FB273D1CDA7C8266 /* Check Pods Manifest.lock */,
+				13B4EB151CF7A57700D0B816 /* Sources */,
+				13B4EB161CF7A57700D0B816 /* Frameworks */,
+				13B4EB171CF7A57700D0B816 /* Resources */,
+				B155B9DA8C780A85536A23EA /* Embed Pods Frameworks */,
+				09CE8278BA8D11C8288ED8C9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B4EB1F1CF7A57700D0B816 /* PBXTargetDependency */,
+			);
+			name = GitRepoAcceptanceTests;
+			productName = GitRepoAcceptanceTests;
+			productReference = 13B4EB191CF7A57700D0B816 /* GitRepoAcceptanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13F748861CF507EA00501F4A /* GitRepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F748B41CF507EA00501F4A /* Build configuration list for PBXNativeTarget "GitRepo" */;
+			buildPhases = (
+				E10DAB05D90790D765F1298A /* Check Pods Manifest.lock */,
+				13F748831CF507EA00501F4A /* Sources */,
+				13F748841CF507EA00501F4A /* Frameworks */,
+				13F748851CF507EA00501F4A /* Resources */,
+				3C8245CFEB067A3B75FCFBD5 /* Embed Pods Frameworks */,
+				4959718C6CAE32B25DE66407 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitRepo;
+			productName = GitRepo;
+			productReference = 13F748871CF507EA00501F4A /* GitRepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F7489F1CF507EA00501F4A /* GitRepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F748B71CF507EA00501F4A /* Build configuration list for PBXNativeTarget "GitRepoTests" */;
+			buildPhases = (
+				98FC377E8842130CD8FBD326 /* Check Pods Manifest.lock */,
+				13F7489C1CF507EA00501F4A /* Sources */,
+				13F7489D1CF507EA00501F4A /* Frameworks */,
+				13F7489E1CF507EA00501F4A /* Resources */,
+				1AD18D7CC94CB98094BCCCF2 /* Embed Pods Frameworks */,
+				7722A7BF0619266994AFE423 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F748A21CF507EA00501F4A /* PBXTargetDependency */,
+			);
+			name = GitRepoTests;
+			productName = GitRepoTests;
+			productReference = 13F748A01CF507EA00501F4A /* GitRepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13F748AA1CF507EA00501F4A /* GitRepoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F748BA1CF507EA00501F4A /* Build configuration list for PBXNativeTarget "GitRepoUITests" */;
+			buildPhases = (
+				13F748A71CF507EA00501F4A /* Sources */,
+				13F748A81CF507EA00501F4A /* Frameworks */,
+				13F748A91CF507EA00501F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F748AD1CF507EA00501F4A /* PBXTargetDependency */,
+			);
+			name = GitRepoUITests;
+			productName = GitRepoUITests;
+			productReference = 13F748AB1CF507EA00501F4A /* GitRepoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F7487F1CF507EA00501F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "WELLINGTON BARBOSA";
+				TargetAttributes = {
+					13B4EB181CF7A57700D0B816 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 13F748861CF507EA00501F4A;
+					};
+					13F748861CF507EA00501F4A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					13F7489F1CF507EA00501F4A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 13F748861CF507EA00501F4A;
+					};
+					13F748AA1CF507EA00501F4A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 13F748861CF507EA00501F4A;
+					};
+				};
+			};
+			buildConfigurationList = 13F748821CF507EA00501F4A /* Build configuration list for PBXProject "GitRepo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13F7487E1CF507EA00501F4A;
+			productRefGroup = 13F748881CF507EA00501F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F748861CF507EA00501F4A /* GitRepo */,
+				13F7489F1CF507EA00501F4A /* GitRepoTests */,
+				13F748AA1CF507EA00501F4A /* GitRepoUITests */,
+				13B4EB181CF7A57700D0B816 /* GitRepoAcceptanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B4EB171CF7A57700D0B816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F748851CF507EA00501F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E798871CF6BE5900F390E5 /* Localizable.strings in Resources */,
+				13F7489A1CF507EA00501F4A /* LaunchScreen.storyboard in Resources */,
+				13F748971CF507EA00501F4A /* Assets.xcassets in Resources */,
+				13F748951CF507EA00501F4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7489E1CF507EA00501F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13012C511CF7695800550963 /* pullRequestsMock.json in Resources */,
+				13012C491CF755E100550963 /* repositoriesMock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F748A91CF507EA00501F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09CE8278BA8D11C8288ED8C9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoAcceptanceTests/Pods-GitRepoAcceptanceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AD18D7CC94CB98094BCCCF2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F3CB882FB273D1CDA7C8266 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C8245CFEB067A3B75FCFBD5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4959718C6CAE32B25DE66407 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitRepo/Pods-GitRepo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7722A7BF0619266994AFE423 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoTests/Pods-GitRepoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FC377E8842130CD8FBD326 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B155B9DA8C780A85536A23EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitRepoAcceptanceTests/Pods-GitRepoAcceptanceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10DAB05D90790D765F1298A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B4EB151CF7A57700D0B816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B4EB241CF7A73E00D0B816 /* SearchUITestSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F748831CF507EA00501F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F748D21CF518B100501F4A /* GRHTTPSessionProvider+PullRequest.m in Sources */,
+				13F748E61CF52E9E00501F4A /* GRHTTPSessionProvider.m in Sources */,
+				13F748921CF507EA00501F4A /* GRRepositoriesViewController.m in Sources */,
+				13F748FA1CF561DC00501F4A /* GRUser.m in Sources */,
+				13F748DB1CF5229900501F4A /* GRGitHubBO.m in Sources */,
+				13F748D71CF5219B00501F4A /* GRBaseManager.m in Sources */,
+				13F748EC1CF551FA00501F4A /* GRRepositories.m in Sources */,
+				13E798781CF6839700F390E5 /* GRRepositoryTableViewCell.m in Sources */,
+				13E798831CF6B05100F390E5 /* GRPullRequestTableViewCell.m in Sources */,
+				13F748CF1CF5188200501F4A /* GRHTTPSessionProvider+RepositoriesSearch.m in Sources */,
+				13E7988A1CF6BEB300F390E5 /* UIAlertController+Utils.m in Sources */,
+				13F748E91CF5442A00501F4A /* GRRepository.m in Sources */,
+				13F748EF1CF5542000501F4A /* GROwner.m in Sources */,
+				13E798751CF673D600F390E5 /* GRAvatarImageView.m in Sources */,
+				13F7488F1CF507EA00501F4A /* AppDelegate.m in Sources */,
+				13E798801CF6A63500F390E5 /* GRPullRequestsViewController.m in Sources */,
+				13F748F71CF561BC00501F4A /* GRPullRequest.m in Sources */,
+				13F7488C1CF507EA00501F4A /* main.m in Sources */,
+				13F748E31CF526E200501F4A /* GRGitHubManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F7489C1CF507EA00501F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13012C461CF751DD00550963 /* RepositoriesJsonParsingSpec.m in Sources */,
+				13012C4F1CF7684E00550963 /* PullRequestsJsonParsingSpec.m in Sources */,
+				13012C4D1CF7563B00550963 /* TestingHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F748A71CF507EA00501F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F748B01CF507EA00501F4A /* GitRepoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13B4EB1F1CF7A57700D0B816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F748861CF507EA00501F4A /* GitRepo */;
+			targetProxy = 13B4EB1E1CF7A57700D0B816 /* PBXContainerItemProxy */;
+		};
+		13F748A21CF507EA00501F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F748861CF507EA00501F4A /* GitRepo */;
+			targetProxy = 13F748A11CF507EA00501F4A /* PBXContainerItemProxy */;
+		};
+		13F748AD1CF507EA00501F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F748861CF507EA00501F4A /* GitRepo */;
+			targetProxy = 13F748AC1CF507EA00501F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13F748931CF507EA00501F4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F748941CF507EA00501F4A /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		13F748981CF507EA00501F4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F748991CF507EA00501F4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B4EB201CF7A57700D0B816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D1D78B7C848B6E0B4CD374 /* Pods-GitRepoAcceptanceTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GitRepoAcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepoAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRepo.app/GitRepo";
+			};
+			name = Debug;
+		};
+		13B4EB211CF7A57700D0B816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03382BF69CDDF87B6C7A51BB /* Pods-GitRepoAcceptanceTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GitRepoAcceptanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepoAcceptanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRepo.app/GitRepo";
+			};
+			name = Release;
+		};
+		13F748B21CF507EA00501F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13F748B31CF507EA00501F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F748B51CF507EA00501F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE6871E64CEABD8C25DE5A2 /* Pods-GitRepo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GitRepo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13F748B61CF507EA00501F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D2F920E19B4AFD12B6F54D /* Pods-GitRepo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GitRepo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13F748B81CF507EA00501F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41923358A527612C35E943FB /* Pods-GitRepoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GitRepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRepo.app/GitRepo";
+			};
+			name = Debug;
+		};
+		13F748B91CF507EA00501F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6A6140EF3489962815DE4A /* Pods-GitRepoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GitRepoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitRepo.app/GitRepo";
+			};
+			name = Release;
+		};
+		13F748BB1CF507EA00501F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GitRepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GitRepo;
+			};
+			name = Debug;
+		};
+		13F748BC1CF507EA00501F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GitRepoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wellington.objective.c.GitRepoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GitRepo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B4EB221CF7A57700D0B816 /* Build configuration list for PBXNativeTarget "GitRepoAcceptanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B4EB201CF7A57700D0B816 /* Debug */,
+				13B4EB211CF7A57700D0B816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F748821CF507EA00501F4A /* Build configuration list for PBXProject "GitRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F748B21CF507EA00501F4A /* Debug */,
+				13F748B31CF507EA00501F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F748B41CF507EA00501F4A /* Build configuration list for PBXNativeTarget "GitRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F748B51CF507EA00501F4A /* Debug */,
+				13F748B61CF507EA00501F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F748B71CF507EA00501F4A /* Build configuration list for PBXNativeTarget "GitRepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F748B81CF507EA00501F4A /* Debug */,
+				13F748B91CF507EA00501F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F748BA1CF507EA00501F4A /* Build configuration list for PBXNativeTarget "GitRepoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F748BB1CF507EA00501F4A /* Debug */,
+				13F748BC1CF507EA00501F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F7487F1CF507EA00501F4A /* Project object */;
+}

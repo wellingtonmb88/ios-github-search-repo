@@ -48,6 +48,16 @@
                ReferencedContainer = "container:GitRepo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "13B4EB181CF7A57700D0B816"
+               BuildableName = "GitRepoAcceptanceTests.xctest"
+               BlueprintName = "GitRepoAcceptanceTests"
+               ReferencedContainer = "container:GitRepo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

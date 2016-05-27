@@ -35,6 +35,7 @@
     
     [self setupSearchController];
     [self setupInfiniteScroll];
+    self.tableView.accessibilityIdentifier = @"Repositories Table";
 }
 
 #pragma mark - Getters/Setters
@@ -69,8 +70,10 @@
     _searchController.dimsBackgroundDuringPresentation = false;
     
     // Add the search bar
-    self.definesPresentationContext = NO;
-    [_searchController.searchBar sizeToFit];
+    self.definesPresentationContext = true;
+    [_searchController.searchBar sizeToFit]; 
+    [_searchController.searchBar setIsAccessibilityElement:true];
+    _searchController.searchBar.accessibilityLabel = @"Search Repository";
     
     self.navigationItem.titleView = _searchController.searchBar;
 }
@@ -108,6 +111,8 @@
             return;
         }
         
+        [strongSelf hideProgress];
+        
         if(success){
             
             if(repositories == nil || [repositories.items count] < 1){
@@ -122,8 +127,6 @@
             [strongSelf createAndShowAlertView:NSLocalizedString(@"alertcontroller.title.error", @"Error") withMessage:NSLocalizedString(@"alertcontroller.message.requestfailure", @"Request Failure!")];
         }
         
-        [strongSelf hideProgress];
-        
     }];
 }
 
@@ -131,7 +134,6 @@
     
     UIAlertController *alertController = [UIAlertController createAndShowAlertWithTitle:title withMessage:message hasDefaultAction:YES];
     [self presentViewController:alertController animated:YES completion:nil];
-    
 }
 
 - (void) showProgress {
