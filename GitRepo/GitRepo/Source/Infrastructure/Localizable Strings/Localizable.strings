@@ -1,0 +1,13 @@
+// Localizable.strings
+// Created by WELLINGTON BARBOSA on 5/26/16.
+//
+
+/* AlertController */
+"alertcontroller.action.ok" = "Ok";
+"alertcontroller.title.searchrepository" = "Search Repository";
+"alertcontroller.title.error" = "Error";
+"alertcontroller.message.norepositoryfound" = "No Repository found!";
+"alertcontroller.message.requestfailure" = "Request Failure!";
+
+/* MBProgressHUD */
+"mbprogresshud.label" = "Loading...";
